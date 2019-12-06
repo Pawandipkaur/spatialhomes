@@ -1,0 +1,120 @@
+/*
+Theme Name: Squared
+Theme URI: https://thrivethemes.com/
+Author: Thrive Themes
+Author URI: https://thrivethemes.com/
+Text Domain: thrive
+Description: Squared is a bold and eye-catching flat design theme. It’s a multi-purpose theme, which works for creating amazing sales pages, marketing sites and landing pages just as well as it works for creating a stunning blog.
+Version: 1.406
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, thrive, lead capture
+*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@font-face {
+    font-family: 'Funky Signature';
+    src: url('fonts/FunkySignature.eot');
+    src: url('fonts/FunkySignature.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FunkySignature.woff2') format('woff2'),
+        url('fonts/FunkySignature.woff') format('woff'),
+        url('fonts/FunkySignature.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.thrv_header .thrv_wrapper { margin:0 !important;}
+.thrv_header .tve_w_menu li { margin:0px 10px !important;}
+.thrv_header .tve_w_menu li a span { font-weight:600 !important;}
+.thrv_header .tve_w_menu li a:before, .thrv_header .tve_w_menu li a:after { display:none !important;}
+.thrv_header .tve_w_menu li a:hover span { color:#b6a689 !important;}
+.socialicons { display:flex; list-style:none; float:right; margin:0px 0px 6px 0;}
+.socialicons li { margin:0px 9px; }
+.socialicons li .fa { color:#b6a689; font-size:19px;}
+.imgCircle { background:#1f4a67; border-radius:100%; border:4px solid #fff; width:95px !important; height:95px; padding:21px; }
+.imgCircle .tve_image_frame { margin-top:22px; }
+.roomInfo { margin:0px !important; padding:0;}
+.roomInfo li { position:relative; margin-right:20px; list-style:none; display:inline-block; padding-left:35px; font-weight:bold !important; }
+.bed:before { position:absolute; content:''; background:url('http://175.176.184.243:8036/Projects/Wordpress/spatial_homes_development/wp-content/uploads/2019/10/bed-icon.png'); height:25px; width:26px; left:0px; top:0;}
+.bath:before { position:absolute; content:''; background:url('http://175.176.184.243:8036/Projects/Wordpress/spatial_homes_development/wp-content/uploads/2019/10/bathtub-icon.png'); height:25px; width:26px; left:0px; top:0;}
+.car:before { position:absolute; content:''; background:url('http://175.176.184.243:8036/Projects/Wordpress/spatial_homes_development/wp-content/uploads/2019/10/car-icon.png'); height:25px; width:26px; left:0px; top:0;}
+
+.enquiryForm ul { padding:0 !important; margin:0 0px 20px 0 !important; float:left; width:100%;}
+.enquiryForm ul li { list-style:none; width:47%; float:left; padding:10px; box-sizing:border-box;}
+.enquiryForm .wpcf7-submit { padding:13px 25px !important; cursor:pointer; background:#b6a689; border:0; font-size:15px; text-transform:uppercase; color:#fff; width:110px; margin:0px auto; display:block;}
+
+.enquiryForm input, .enquiryForm select { width:100%; height:45px; font-family:Karla !important; font-size:15px;  padding:0px 10px;  border:1px solid #b5c1c7;  color: #1f4a67; background:transparent; box-sizing:border-box;}
+
+div.wpcf7-response-output { margin:0.5em !important; font-size:15px !important;}
+span.wpcf7-not-valid-tip { font-size:15px !important;}
+
+.enquiryForm ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1f4a67;
+}
+.enquiryForm ::-moz-placeholder { /* Firefox 19+ */
+  color: #1f4a67;
+}
+.enquiryForm :-ms-input-placeholder { /* IE 10+ */
+  color: #1f4a67;
+}
+.enquiryForm :-moz-placeholder { /* Firefox 18- */
+  color: #1f4a67;
+}
+
+.FooterDetail h3 { color:#fff !important; font-size:15px !important; margin-bottom:5px; }
+.FooterDetail a, .FooterDetail address { color:#a2c1d6 !important; font-size:15px; font-family:karla; }
+.FooterList { margin-left:0px !important; }
+.FooterList li { margin-bottom:8px; }
+.FooterList a { color:#fff !important; font-size:15px; font-family:karla; }
+.FooterList a.lightBlue { color:#a2c1d6 !important; }
+.FooterList .fa { margin-right:8px; color:#a2c1d6; }
+
+.choose_us .tcb-flex-row { align-items:center !important; }
+.choose_border:before { position:absolute; content:''; top:-20px; right:20px; height:20px; background:rgba(31,74,103,0.7); width:100%; }
+.choose_border:after { position:absolute; content:''; left:-20px; top:-20px; width:20px; background:rgba(31,74,103,0.7); height:100%; }
+
+.choose_border-reverse:before { position:absolute; content:''; top:-20px; right:-20px; height:20px; background:rgba(31,74,103,0.7); width:100%; }
+.choose_border-reverse:after { position:absolute; content:''; right:-20px; top:-20px; width:20px; background:rgba(31,74,103,0.7); height:100%; }
+.tve_scT .tve_scTC { background:none !important; border:0 !important; padding:20px !important;}
+.custom_tabs ul.tve_clearfix li { border-radius:0 !important; border:1px solid #d9d9d9 !important; margin-bottom:0 !important; border-bottom:0px !important;}
+.custom_tabs ul.tve_clearfix li:last-child { border-bottom:1px solid #d9d9d9 !important;}
+.custom_tabs .tve_scT>ul li { padding:15px !important; text-align:left !important; margin-right:30px !important;}
+.custom_tabs .tve_scT>ul li.tve_tS, .custom_tabs .tve_scT>ul li:hover { margin-right:30px !important; }
+.custom_tabs .tve_scT>ul li:hover span, .custom_tabs .tve_scT>ul li:focus span { color:#1f4a67 !important;}
+.custom_tabs .tve_scT>ul li.tve_tS:hover span { color:#fff !important; }
+.custom_tabs ul li.tve_tS:after {content: '';
+    width: 0;
+    position: absolute;
+    right: -59px;
+    top: 0;
+    border: 29px solid transparent;
+    border-left: 30px solid #1f4a67;
+    border-bottom: 29px solid transparent; }
+.consultationForm ul li, .consultationForm textarea { width:100%;}
+.thrv_widget_menu.thrv_wrapper ul.tve_w_menu.tve_horizontal li { padding:2px 0px !important;}
+
+
+@media(max-width:1200px){
+	.enquiryForm ul li { width:100%;}
+	.tve_scT .tve_scTC { padding-left:0px !important; padding-right:0px !important; }
+	.thrv_widget_menu.thrv_wrapper ul.tve_w_menu.tve_horizontal li>a { font-size:15px !important;}
+}
+
+@media(max-width:991px) {
+	.custom_tabs .tve_scT.tve_vtabs>ul { position:relative !important; width:100% !important;}
+	.custom_tabs .tve_vtabs { padding-left:0px !important;}
+	.thrv_header .tve_w_menu li { margin:0px 6px !important;}	
+	
+}
+
+@media(max-width:767px) {
+    .roomInfo { text-align:center;}
+	.bg-section-height .thrv_text_element { min-height:auto !important;}
+	.bg-position .tve-page-section-out { background-position:inherit !important; }
+	.text-center p { text-align:center !important;}
+	.signature h3 { font-size:50px !important;}
+	.custom_tabs ul li.tve_tS:after { display:none; }
+	.custom_tabs .tve_scT.tve_vtabs ul.tcb-styled-list li { border-right:none !important;}
+	.custom_tabs .tve_scT>ul li, .custom_tabs .tve_scT>ul li.tve_tS, .custom_tabs .tve_scT>ul li:hover { margin-right:0px !important;}
+	
+}
+
